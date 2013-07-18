@@ -1,0 +1,7 @@
+cc main.c -o ios-cpuhack -Wall -Wextra -O2
+
+example:
+
+$ ./ios-cpuhack iosbinary armv7s
+cpu type: 12  cpu subtype: 9 (armv7)  bit flags set: 0, 2, 7, 15, 16
+set cpu subtype to: 11 (armv7s)
