@@ -189,7 +189,9 @@ int main(int argc, char **argv)
     }
     else
     {
+        fclose(f);
         printf("error: not an arm binary!\n");
+        return 1;
     }
 
     fclose(f);
